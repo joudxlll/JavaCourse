@@ -1,8 +1,8 @@
-package day1.loops;
+package day1.Excercises;
 
 import java.util.Scanner;
 
-public class quiz2_EX1 {    public static void main(String[] args) {
+public class quiz2_EX3 {    public static void main(String[] args) {
     Scanner sc =new Scanner(System.in);
 
     int x= (int) (Math.random() * 10);

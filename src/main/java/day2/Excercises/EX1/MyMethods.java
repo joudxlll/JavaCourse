@@ -1,6 +1,5 @@
-package day2.arrays_methods;
-
-public class MyMethods_EX1 {
+package day2.Excercises.EX1;
+public class MyMethods{
     public static double calculatePCT(double mark, double fullMark){
         return (mark/fullMark)*100;
     }

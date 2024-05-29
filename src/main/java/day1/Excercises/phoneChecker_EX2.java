@@ -1,8 +1,8 @@
-package day1.strings_array;
+package day1.Excercises;
 
 import java.util.Scanner;
 
-public class phoneChecker_EX1 {
+public class phoneChecker_EX2 {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter a phone number: ");

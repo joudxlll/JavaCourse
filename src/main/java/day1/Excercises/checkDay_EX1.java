@@ -1,4 +1,4 @@
-package day1.if_switch;
+package day1.Excercises;
 
 import java.util.Scanner;
 
