@@ -1,4 +1,4 @@
-package day2;
+package day2.arrays_methods;
 
 import java.util.Arrays;
 

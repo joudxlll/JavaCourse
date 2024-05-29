@@ -1,4 +1,4 @@
-package day2;
+package day2.arrays_methods;
 
 public class MyMethods_EX1 {
     public static double calculatePCT(double mark, double fullMark){
