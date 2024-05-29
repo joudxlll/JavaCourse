@@ -10,7 +10,7 @@ public class Account {
         balance=b;
     }
 
-    public double getMonthRate(){
+    public static double getMonthRate(){
         return annualRate/12;
     }
 

@@ -15,7 +15,6 @@ public class TestAccount {
         a1.depost(20);
         System.out.println(a1.getBalance()+"\n----------------");
 
-        System.out.println("month rate: "+ a1.getMonthRate()+" \n----------------");
         System.out.println("month Int: "+a1.getMonthInt()+"\n----------------");
 
 
