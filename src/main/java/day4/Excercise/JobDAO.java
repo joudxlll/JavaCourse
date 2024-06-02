@@ -32,17 +32,17 @@ public class JobDAO {
         st.executeUpdate();
     }
 
-    public void updatejob(int deptId) throws SQLException {
+    public void updatejob(int jobtId) throws SQLException {
         Connection conn = DriverManager.getConnection(URL);
         PreparedStatement st = conn.prepareStatement(DELETE_Jobs);
-        st.setInt(1, deptId);
+        st.setInt(1, jobtId);
         st.executeUpdate();
     }
 
-    public Jobs selectjob(int deptId) throws SQLException {
+    public Jobs selectjob(int jobId) throws SQLException {
         Connection conn = DriverManager.getConnection(URL);
         PreparedStatement st = conn.prepareStatement(SELECT_ONE_Jobs);
-        st.setInt(1, deptId);
+        st.setInt(1, jobId);
         ResultSet rs = st.executeQuery();
         if(rs.next()) {
             return new Jobs(rs);
